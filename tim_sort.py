@@ -68,5 +68,7 @@ def tim_sort(arr: List[int]) -> List[int]:
 
 if __name__ == "__main__":
     sample = [23, 10, 20, 11, 12, 6, 7, 41, 5, 33, 9, 1]
+    print("                    ")
     print("Before:", sample)
     print("After: ", tim_sort(sample))
+    print("                    ")

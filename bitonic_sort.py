@@ -48,5 +48,7 @@ def bitonic_sort(arr: List[int]) -> List[int]:
 
 if __name__ == "__main__":
     sample = [23, 10, 20, 11, 12, 6, 7]
+    print("                    ")
     print("Before:", sample)
     print("After: ", bitonic_sort(sample))
+    print("                    ")
